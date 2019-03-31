@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "83127628795",
+    "firebase_url": "https://simposio-itlm.firebaseio.com",
+    "project_id": "simposio-itlm",
+    "storage_bucket": "simposio-itlm.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:83127628795:android:4b38a3ef449515b9",
+        "android_client_info": {
+          "package_name": "com.framgentoestudio.simposio_ciencias_basicas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "83127628795-jbpndk0ul3ssseotvldro3avm0tomh6f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.framgentoestudio.simposio_ciencias_basicas",
+            "certificate_hash": "57c8f9e2e8ecdea3c5163f46cc2f3d85230eb95f"
+          }
+        },
+        {
+          "client_id": "83127628795-2qa7udtcidbj5g5ojkivub3rluit3b27.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvzmb81QmcAbKVPKlLNepFOpbwOG9Cc0k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "83127628795-2qa7udtcidbj5g5ojkivub3rluit3b27.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

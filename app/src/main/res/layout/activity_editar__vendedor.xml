@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_margin="15dp"
+    android:layout_height="match_parent"
+    tools:context=".Editar_Vendedor">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="#808080"
+            android:layout_marginBottom="5dp"
+            android:textAlignment="center"
+            app:counterEnabled="true"
+            app:counterMaxLength="35"
+            app:errorEnabled="true"
+            android:id="@+id/tilEditar_Nombre"
+            android:hint="Ingresa el Nombre">
+
+            <EditText
+                android:id="@+id/txtEditar_Nombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="textStart"
+                android:drawableLeft="@drawable/ic_suario"
+                android:drawablePadding="5dp"
+                android:maxLength="35"
+                android:inputType="textPersonName|textCapWords"
+                android:paddingTop="15dp" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="#808080"
+            android:layout_marginBottom="5dp"
+            android:textAlignment="center"
+            app:counterEnabled="true"
+            app:counterMaxLength="10"
+            app:errorEnabled="true"
+            android:id="@+id/tilEditar_Numero"
+            android:hint="Ingresa tu Número">
+
+            <EditText
+                android:id="@+id/txtEditar_Numero"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="textStart"
+                android:drawableLeft="@drawable/ic_numero"
+                android:drawablePadding="5dp"
+                android:maxLength="10"
+                android:inputType="phone"
+                android:paddingTop="15dp" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="#808080"
+            android:layout_marginBottom="5dp"
+            android:textAlignment="center"
+            app:counterEnabled="true"
+            app:counterMaxLength="35"
+            app:errorEnabled="true"
+            android:id="@+id/tilEditar_Correo"
+            android:hint="Ingresa el Correo">
+
+            <EditText
+                android:id="@+id/txtEditar_Correo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="textStart"
+                android:drawableLeft="@drawable/ic_correo"
+                android:drawablePadding="5dp"
+                android:maxLength="35"
+                android:inputType="textEmailAddress"
+                android:paddingTop="15dp" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="#808080"
+            android:layout_marginBottom="5dp"
+            android:textAlignment="center"
+            app:counterEnabled="true"
+            app:counterMaxLength="8"
+            app:errorEnabled="true"
+            android:id="@+id/tilEditar_NControl"
+            android:hint="Ingresa el Número de Control">
+
+            <EditText
+                android:id="@+id/txtEditar_NControl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="textStart"
+                android:drawableLeft="@drawable/ic_ncontrol"
+                android:drawablePadding="5dp"
+                android:maxLength="8"
+                android:inputType="number"
+                android:paddingTop="15dp" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="#808080"
+            android:layout_marginBottom="5dp"
+            android:textAlignment="center"
+            app:counterEnabled="true"
+            app:counterMaxLength="4"
+            app:errorEnabled="true"
+            android:id="@+id/tilEditar_NIP"
+            android:hint="Ingresa el NIP">
+
+            <EditText
+                android:id="@+id/txtEditar_NIP"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="textStart"
+                android:drawableLeft="@drawable/ic_contrasena"
+                android:drawablePadding="5dp"
+                android:maxLength="4"
+                android:inputType="numberPassword"
+                android:paddingTop="15dp" />
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:id="@+id/btnEditar_vendedor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="Editar"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:theme="@style/BotonLogin" />
+
+    </LinearLayout>
+
+</FrameLayout>

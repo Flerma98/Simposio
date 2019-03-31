@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Registrar_Asistencia">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_margin="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/vz_folio"
+        android:textColor="#000"
+        android:textSize="23sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Folio"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/vz_nombre"
+        android:textColor="#000"
+        android:textSize="23sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nombre"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/vz_ncontrol"
+        android:textColor="#000"
+        android:textSize="23sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Numero de conrol"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/vz_talla"
+        android:textColor="#000"
+        android:textSize="23sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Talla"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/vz_semestre"
+        android:textColor="#000"
+        android:textSize="23sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Semestre"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/vz_carrera"
+        android:textColor="#000"
+        android:textSize="23sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Carrera"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/vz_taller"
+        android:textColor="#000"
+        android:textSize="23sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Taller"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/vz_vendedora"
+        android:textColor="#000"
+        android:textSize="23sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vendedora"
+        android:textStyle="bold"/>
+
+        <View
+            android:layout_marginVertical="20dp"
+            android:layout_width="fill_parent"
+            android:layout_height="3dip"
+            android:background="@color/colorPrimary" />
+
+        <TextView
+            android:id="@+id/txt_aistencia_estado"
+            android:textColor="#803F3F"
+            android:textSize="30sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_marginBottom="10dp"
+            android:text="- No Registrado -"
+            android:textStyle="bold"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:textColor="#615479"
+                android:textSize="25sp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="- Entró -"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:textColor="#615479"
+                android:textSize="25sp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="- Salió -"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/txt_asistencia_entro"
+                android:textColor="#615479"
+                android:textSize="17sp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_marginBottom="10dp"
+                android:text="-"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/txt_asistencia_salio"
+                android:textColor="#615479"
+                android:textSize="17sp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_marginBottom="10dp"
+                android:text="-"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+            <TextView
+                android:id="@+id/txt_asistencia_horas"
+                android:textColor="#000"
+                android:background="#C7C09A"
+                android:textSize="23sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="-"
+                android:textStyle="bold"/>
+        <Button
+            android:layout_marginTop="15dp"
+            android:id="@+id/btnAsistencia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="Registrar Asistencia"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:theme="@style/BotonLogin" />
+
+        <Button
+            android:layout_marginVertical="20dp"
+            android:id="@+id/btnasistencia_borrar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="Borrar Asistencia"
+            android:visibility="invisible"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:theme="@style/BotonBorrar" />
+
+    </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>
