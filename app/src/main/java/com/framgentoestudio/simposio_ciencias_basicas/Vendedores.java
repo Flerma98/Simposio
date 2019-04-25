@@ -63,6 +63,7 @@ public class Vendedores extends AppCompatActivity {
     public static ArrayList<String> carrera= new ArrayList<>();
     public static ArrayList<String> taller= new ArrayList<>();
 
+
     public static Datos_Vendedores vendedora;
 
     @Override
